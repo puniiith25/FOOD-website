@@ -1,0 +1,22 @@
+.list{
+    width: 75%;
+    margin: 60px;
+}
+.list-table-formate{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 13px;
+    border: 1px solid #cacaca;
+    font-size: 15px;
+}
+.list  .title b{
+    font-weight: 700;
+}
+.list-table-formate img{
+    width: 50px;
+}
+.X-delete{
+    margin-left: 10px;
+}

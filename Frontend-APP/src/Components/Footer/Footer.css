@@ -1,0 +1,81 @@
+.Footer{
+    background-color: #323232;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 2vw;
+    padding-top: 50px;
+    margin-top: 80px;
+}
+
+.footer-cantainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 80px;
+    
+}
+.footer-left , .footer-center , .footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.footer-left li , .footer-center li, .footer-right li{
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.footer-center p, .footer-right p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Social-media{
+    display: flex;
+    gap: 10px;
+    width: 40px;
+    margin-right: 15px;
+}
+.Footer hr{
+    width: 100%;
+    
+   
+}
+
+.footer-copyright{
+    font-size: 15px;
+    color: #767676;  
+    margin-bottom: 15px;  
+}
+.Text-Experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+.Footer h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: tomato;
+}
+.Download-App-platform img{
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 0px 10px;
+}
+.Download-App-platform img:hover{
+    transform: scale(1.05);
+}
+.App-Download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

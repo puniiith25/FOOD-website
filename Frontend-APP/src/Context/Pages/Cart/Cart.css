@@ -1,0 +1,121 @@
+.Cart{
+    margin:80px 7%;
+    
+}
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: gray;
+    font-size: max(1vw,12px);
+    text-align: center;
+}
+.food-items-lists{
+    margin: 10px 0px;
+    color: black;
+}
+
+.food-items-lists img{
+    width: 70px;
+    border-radius: 15%;
+    margin-left: 30px;
+}.Cart hr{
+    height: 1px;
+    background-color: #e2e2e2;
+    border: none;
+
+}
+.Cross{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 30px ;
+    width: 21%;
+    margin-left: 50px;
+}
+.Cross:hover{
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 30px ;
+    color: tomato;
+    width: 21%;
+    margin-left: 50px;
+}
+.cart-bottom{
+
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(20vw,20px);
+}
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart-total-datles{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+.cart-total-datles hr{
+    margin: 10px 0px;
+}
+.cart-total button{
+    border: none;
+    color: #fff;
+    background-color: tomato;
+    width: max(15vw,100px);
+    padding: 12px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart-promocode{
+    width: max(25vw ,40px);
+    color: #555;
+    font-weight: 500;
+   
+}
+
+.promocode-input{
+    display: flex;
+    justify-content: space-between;
+    background-color:#eaeaea;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.promocode-input input{
+   
+    text-align: center;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+.promocode-input button{
+    width: max(8vw,150px);
+    border: none;padding: 10px 5px;
+    text-align: start;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    border-radius: 8px 0px  8px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
